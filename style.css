@@ -1,0 +1,39 @@
+body {
+    background: #fff;
+    color: #222;
+}
+
+#search-form {
+    text-align: center;
+}
+
+#search-box {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding: 5px 8px 0 20px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#search-box input {
+    flex: 100%;
+    border: 0;
+    outline: none;
+}
+
+#speech-icon {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    padding: 0 8px;
+}
+
+#speech-icon img {
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+}
