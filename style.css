@@ -7,6 +7,25 @@ body {
     text-align: center;
 }
 
+#logo-div {
+    height: 233px;
+    margin-top: 89px;
+}
+
+#google-logo {
+    height: 92px;
+    width: 272px;
+    padding-top: 109px;
+}
+
+#main-search {
+    position: relative;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-top: 6px;
+    width: 584px;
+}
+
 #search-box {
     display: flex;
     flex: 1;
@@ -15,8 +34,9 @@ body {
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     height: 44px;
-    width: 100%;
+    width: 582px;
     margin: 0 auto;
+    box-shadow: #222;
 }
 
 #search-box input {
